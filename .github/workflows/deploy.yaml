@@ -25,3 +25,5 @@ jobs:
           args: deploy --only hosting
         env:
           PROJECT_ID: reme-frend
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
